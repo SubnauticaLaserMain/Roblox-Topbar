@@ -1,0 +1,48 @@
+.RobloxTopbarAPP {
+    height: 44px;
+    width: 44px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 100%;
+}
+
+.RobloxTopbarAPP:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+.RobloxTopbarAPP:hover .Middle {
+    fill: rgba(0, 0, 0, 0.7);
+}
+
+
+.RobloxTopbarAPP-Unibar {
+    height: 44px;
+    width: 44px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 100%;
+    margin: 0px 11px;
+    display: flex;
+}
+
+
+.RobloxTopbarAPP-Sorter {
+    background: transparent;
+    display: flex;
+}
+
+
+.RobloxTopbarAPP-Sorter .RobloxTopbarAPP-Unibar .RobloxTopbarAPP-Unibar-Open-Close-Button {
+    position: relative;
+    background-color: transparent;
+    height: 33px;
+    width: 33px;
+    color: white;
+    top: 12.5%;
+    left: 12.5%;
+    border-radius: 100%;
+}
+
+
+.RobloxTopbarAPP-Sorter .RobloxTopbarAPP-Unibar .RobloxTopbarAPP-Unibar-Open-Close-Button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
